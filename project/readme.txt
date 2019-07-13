@@ -1,5 +1,6 @@
 项目名:博库网--博库体验店
 
+GitHub地址  https://github.com/superprimarygod/xiangmu1905.git
 
 <文件介绍>
 项目打开方式：把projrct文件夹放到服务器WWW文件夹的根目录里，然后再用

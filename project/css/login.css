@@ -1,0 +1,44 @@
+*{margin: 0;padding: 0;}
+.margin{width:1200px;margin:0 auto;}
+a{text-decoration: none;}
+li{list-style: none;}
+
+header{height: 45px;padding: 35px 0 34px;border-bottom: 1px #ccc solid;}
+header .margin a{display: block;width: 300px;}
+
+
+#login{background: url(../images/loginbg.jpg) no-repeat center;}
+#login .margin{height: 600px;}
+#login .margin .form{float: right;margin-top: 75px;width: 380px;padding: 19px;background: #fff;}
+#login .margin .form .visitor{height: 32px;font: 16px/2 "";color: #2db4ea;border-bottom: 1px solid #e8e8e8;}
+#login .margin .form ul{margin-top: 20px;}
+#login .margin .form ul li:nth-child(1){height: 38px;border: 1px solid #e8e8e8;border-radius: 5px;}
+#login .margin .form ul li:nth-child(1) i{display: block;float: left;width: 57px;height: 38px;background:#e4e4e4 url(../images/yonghu.jpg) no-repeat center;}
+#login .margin .form ul li:nth-child(1) .phone{float:left;display:block;width: 309px;height:30px;padding: 4px 6px;border: none;color: #212121;}
+#login .margin .form ul li:nth-child(2){height: 38px;border: 1px solid #e8e8e8;border-radius: 5px;margin-top: 20px;}
+#login .margin .form ul li:nth-child(2) i{display: block;float: left;width: 57px;height: 38px;background:#e4e4e4 url(../images/mima.jpg) no-repeat center;}
+#login .margin .form ul li:nth-child(2) .password{float:left;display:block;width: 309px;height:30px;padding: 4px 6px;border: none;color: #212121;}
+#login .margin .form ul li:nth-child(3){height: 40px;margin-top: 20px;}
+#login .margin .form ul li:nth-child(3) .yanzhengma{float: left;width: 220px;height: 40px;padding-right: 10px;font: 14px/40px "";}
+#login .margin .form ul li:nth-child(3) .yanzhengma p{float: left;width: 56px;height: 40px;}
+#login .margin .form ul li:nth-child(3) .yanzhengma .tianzhengma{float: left;width:150px;height: 30px;padding: 4px 6px;border: 1px solid #e8e8e8;border-radius: 5px;}
+#login .margin .form ul li:nth-child(3) .suijishu{float: left;width: 116px;height: 38px;border: 1px solid #e8e8e8;border-radius: 5px;cursor: pointer;background: #2db4ea;color: #fff;text-align: center;font: 14px/38px "";}
+#login .margin .form ul li:nth-child(4){height: 28px;margin-top: 10px;}
+#login .margin .form ul li:nth-child(4) .defalt{float: left;font-size: 14px;color: #f00;line-height: 2;}
+#login .margin .form ul li:nth-child(4) p{float: right;font: 14px/2 "";}
+#login .margin .form ul li:nth-child(4) p a{display: block;color: #2db4ea;}
+#login .margin .form ul li:nth-child(5) .denglubtn{width:380px;height: 38px;background: #2db4ea;color: #fff;border: 1px solid #2db4ea;border-radius: 5px;} 
+#login .margin .form ul li:nth-child(5) p{height: 24px;width: 380px;font: 12px/2 "";color: #e4393c;}
+#login .margin .form ul li:nth-child(6){height: 28px;margin-top: 20px;}
+#login .margin .form ul li:nth-child(7){width:380px;height: 38px;margin-top: 10px;background: url(../images/zhuceanbg.png) no-repeat -50px 0;font: 14px/38px "";}
+#login .margin .form ul li:nth-child(7) a{display: block;color: #2db4ea;text-align: center;}
+
+footer .margin{height: 60px;padding: 20px 0;border-bottom: 1px solid #e1e1e1;}
+footer .margin li{width: 25%;height: 50px;padding: 5px 0;float: left;}
+footer .margin li img{float: left;width: 50px;margin-right: 10px;}
+footer .margin li .promise{float: left;}
+footer .margin li .promise p{height: 25px;font: 24px/25px "";color: #212121;}
+footer .margin li .promise p:nth-child(2){font: 14px/25px "";}
+footer .copyright{background: #414141;}
+footer .copyright .margin p{height: 20px;font: 14px/20px "";color: #999;text-align: center;}
+footer .copyright .margin p:hover{color: #fff;}

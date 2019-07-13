@@ -1,0 +1,46 @@
+*{margin: 0;padding: 0;}
+.margin{width: 1200px;margin: 0 auto;}
+a{text-decoration: none;}
+li{list-style: none;}
+
+
+#header{height: 30px;background: #f5f5f5;font: 12px/30px "";}
+#header .margin{height: 30px;}
+#header .margin .header-tl{float: left;}
+#header .margin a:hover{color: #f00;}
+#header .margin .header-tl a:nth-of-type(2){margin-right: 30px;}
+#header .margin .header-tl a:nth-of-type(3) i{display: inline-block;width: 16px;height: 16px;background: url(../images/header-t1.png);background-size:100%;vertical-align: middle;}
+#header .margin .header-tr{float: right;}
+#header .margin .header-tr a{float: right;}
+#header .margin .header-tr span{float: right;padding: 0 15px;}
+#header .margin .header-tc{float: right;width: 80px;height: 30px;text-align: center;position: relative;}
+#header .margin .header-tc a{display: block;cursor: pointer;}
+#header .margin .header-tc dl{position: absolute;top: 0;width: 100%;}
+#header .margin .header-tc dt a i{display: inline-block;width: 16px;height: 16px;background: url(../images/header-t1.png);background-size:100%;vertical-align: middle;}
+#header .margin .header-tc dd{display: none;}
+#header .margin .header-tc dl:hover{border: 1px solid #e5e5e5;background: #fff;}
+#header .margin .header-tc dl:hover dt a i{display: none;}
+#header .margin .header-tc dl:hover dd{display: block;}
+
+#logo{height: 90px;padding-top: 30px;border-bottom: 1px #e8e8e8 solid;}
+#logo a{display: block;width: 300px;}
+
+#register{background: url(../images/zhucebg.jpg) no-repeat center;}
+#register .margin{height: 600px;overflow: hidden;}
+#register .margin .form{width: 380px;padding: 19px;background: #fff;margin: 0 auto;margin-top: 100px;}
+#register .margin .form .visitor{height: 32px;font: 16px/2 "";color: #2db4ea;border-bottom: 1px solid #e8e8e8;}
+#register .margin .form ul{overflow: hidden;}
+#register .margin .form ul li:nth-child(1){height: 35px;margin-top:20px;}
+#register .margin .form ul li span{float:left;width:80px;height: 35px;font: 16px/35px "";}
+#register .margin .form ul li:nth-child(1) .tel{float:left;height: 25px;padding: 4px 6px;width: 266px;border: 1px #ddd solid;border-radius: 5px;}
+#register .margin .form ul li:nth-child(2){height: 35px;margin-top:20px;}
+#register .margin .form ul li:nth-child(2) .pass{float:left;height: 25px;padding: 4px 6px;width: 266px;border: 1px #ddd solid;border-radius: 5px;}
+#register .margin .form ul li:nth-child(3){height: 35px;margin-top:20px;}
+#register .margin .form ul li:nth-child(3) .repass{float:left;height: 25px;padding: 4px 6px;width: 266px;border: 1px #ddd solid;border-radius: 5px;}
+#register .margin .form ul li:nth-child(4){height: 35px;margin-top:20px;}
+#register .margin .form ul li:nth-child(4) .yanzhengma{width: 150px;height: 25px;padding: 4px 6px;border: 1px solid #ddd;float: left;border-radius: 5px;}
+#register .margin .form ul li:nth-child(4) p{width: 80px;height: 35px;font: 14px/35px "";text-align: center;float: left;margin-left: 20px;border: 1px solid #ddd;border-radius:5px;background: #2db4ea;color: #fff;cursor: pointer;}
+#register .margin .form ul li:nth-child(5){height: 59px;margin-top:20px;}
+#register .margin .form ul li:nth-child(5) .error{height: 24px;font: 12px/2 "";color: #f00;}
+#register .margin .form ul li:nth-child(5) .zhucebtn{width:378px;height: 33px;border: 1px solid #2db4ea;color: #fff;font: 14px/33px "";background: #2db4ea;border-radius:5px;text-align: center;cursor: pointer;}
+
